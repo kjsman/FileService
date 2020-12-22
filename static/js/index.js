@@ -1,5 +1,5 @@
 Vue.component('file', {
-    template: '<li @click="redirect" @mouseover="over" @mouseleave="leave" v-bind:class="{ rainbow : up }">{{ fname }}</li>',
+    template: '<li @click="redirect" @mouseover="over" @mouseleave="leave" v-bind:class="{ rainbow : up }"><code>{{ fname }}</code></li>',
     data: function () {
         return {
             fname: "",
